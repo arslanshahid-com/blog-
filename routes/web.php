@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', [
-    ''
-]);
+Route::get('/', function () {
+    return view('home');
+});
